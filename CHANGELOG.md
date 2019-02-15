@@ -2,6 +2,8 @@
 
   * Fixed `manual_control.py` and `no_rendering_mode.py` to prevent crashes when used in "no rendering mode"
   * Refactored `no_rendering_mode.py` to improve performance and interface
+  * Improved time-out related error messages
+  * Fixed issue of retrieving an empty list when calling `world.get_actors()` right after creating the world
 
 ## CARLA 0.9.3
 
